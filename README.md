@@ -17,11 +17,7 @@ This project provides a comprehensive, production-ready pipeline for predicting 
 
 - `personality_prediction.ipynb`: Main notebook containing the full pipeline, analysis, and results.
 - `train.csv`, `test.csv`: Raw input data files.
-- `train_engineered.csv`, `test_engineered.csv`: Engineered datasets with selected features.
-- `X_train_final_clean.csv`, `X_test_final_clean.csv`: Final model-ready feature matrices (after PCA).
-- `y_train_encoded.csv`: Encoded target labels for training.
-- `target_encoder.pkl`: Saved label encoder for target variable.
-- `ensemble_pca_predictions.csv`: Final predictions for the test set.
+
 
 ## Usage
 
