@@ -18,15 +18,10 @@ The original dataset for this project is available from the Kaggle competition:
 - **Modeling:** Training and evaluation of multiple models (Random Forest, XGBoost, LightGBM, SVM, MLP, etc.) with PCA for dimensionality reduction. Final predictions are made using a weighted ensemble of top models.
 - **Outputs:** Cleaned datasets, encoders, and prediction files are saved for reproducibility and deployment.
 
-## Files
+## File
 
 - `personality_prediction.ipynb`: Main notebook containing the full pipeline, analysis, and results.
-- `train.csv`, `test.csv`: Raw input data files.
-- `train_engineered.csv`, `test_engineered.csv`: Engineered datasets with selected features.
-- `X_train_final_clean.csv`, `X_test_final_clean.csv`: Final model-ready feature matrices (after PCA).
-- `y_train_encoded.csv`: Encoded target labels for training.
-- `target_encoder.pkl`: Saved label encoder for target variable.
-- `ensemble_pca_predictions.csv`: Final predictions for the test set.
+
 
 ## Usage
 
