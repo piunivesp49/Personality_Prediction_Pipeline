@@ -4,6 +4,11 @@
 
 This project provides a comprehensive, production-ready pipeline for predicting personality type (Extrovert vs. Introvert) from behavioral survey data. The workflow includes advanced data cleaning, imputation, class balancing, feature engineering, model training, and ensemble prediction, following best practices in data science and machine learning.
 
+## Dataset Source
+
+The original dataset for this project is available from the Kaggle competition:
+[https://www.kaggle.com/competitions/playground-series-s5e7/data](https://www.kaggle.com/competitions/playground-series-s5e7/data)
+
 ## Workflow Summary
 
 - **Data Exploration:** In-depth EDA, visualization, and statistical analysis to understand feature-target relationships and data quality issues.
@@ -17,7 +22,11 @@ This project provides a comprehensive, production-ready pipeline for predicting 
 
 - `personality_prediction.ipynb`: Main notebook containing the full pipeline, analysis, and results.
 - `train.csv`, `test.csv`: Raw input data files.
-
+- `train_engineered.csv`, `test_engineered.csv`: Engineered datasets with selected features.
+- `X_train_final_clean.csv`, `X_test_final_clean.csv`: Final model-ready feature matrices (after PCA).
+- `y_train_encoded.csv`: Encoded target labels for training.
+- `target_encoder.pkl`: Saved label encoder for target variable.
+- `ensemble_pca_predictions.csv`: Final predictions for the test set.
 
 ## Usage
 
